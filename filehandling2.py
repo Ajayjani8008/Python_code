@@ -1,0 +1,6 @@
+myflie = open("file1.txt", "r")
+contant = myflie.readline()
+contant2 = myflie.readline()
+print(contant)
+print(contant2)
+myflie.close()
